@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f26422">
+  <title>Apex Computers — Easy GitHub & Vercel Upload</title>
+  <style>
+    :root{--orange:#f26422;--orange-dark:#c9430d;--charcoal:#17191d;--muted:#64666b;--paper:#fff;--soft:#fff3ec;--line:#eaded7;--green:#147d48;--shadow:0 18px 55px rgba(38,20,12,.12)}*{box-sizing:border-box}html{scroll-behavior:smooth;overflow-x:hidden}body{margin:0;max-width:100%;overflow-x:hidden;background:linear-gradient(180deg,#fff7f2 0,#fff 420px);color:var(--charcoal);font:16px/1.6 Arial,sans-serif}.page{width:min(920px,calc(100% - 28px));margin:20px auto 70px}.hero{position:relative;overflow:hidden;padding:30px;border-radius:24px;background:linear-gradient(135deg,#17191d 0,#2b1b15 58%,#8e310d 100%);color:#fff;box-shadow:var(--shadow)}.hero:after{content:"";position:absolute;right:-50px;bottom:-70px;width:250px;height:250px;background:url("assets/apex-icon.png") center/contain no-repeat;opacity:.12}.logo{position:relative;z-index:1;width:104px;height:auto;filter:drop-shadow(0 6px 18px #0006)}h1{position:relative;z-index:1;margin:12px 0 7px;font-size:clamp(31px,7vw,56px);line-height:1.05;max-width:700px;overflow-wrap:break-word}.hero p{position:relative;z-index:1;margin:0;max-width:650px;color:#f2ddd2}.actions{position:relative;z-index:1;display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 18px;border:0;border-radius:12px;background:var(--orange);color:#fff;font-weight:800;text-align:center;text-decoration:none;cursor:pointer;overflow-wrap:break-word}.button:hover,.button:focus-visible{background:#ff7840;outline:3px solid #fff6;outline-offset:2px}.button.alt{background:#fff;color:var(--charcoal)}.progress-card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;margin:18px 0;padding:18px 20px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:var(--shadow)}.progress-card strong{font-size:18px}.progress-track{grid-column:1/-1;height:11px;overflow:hidden;border-radius:99px;background:#eee}.progress-bar{width:0;height:100%;background:linear-gradient(90deg,var(--orange),#ff9b70);transition:width .25s ease}.reset{border:0;background:transparent;color:var(--orange-dark);font-weight:800;cursor:pointer}.step{margin:18px 0;padding:24px;border:1px solid var(--line);border-radius:20px;background:var(--paper);box-shadow:0 8px 28px rgba(38,20,12,.06)}.step-head{display:flex;align-items:flex-start;gap:13px}.step-head>div,.task label,.batch{min-width:0}.number{display:grid;flex:0 0 38px;width:38px;height:38px;place-items:center;border-radius:12px;background:var(--orange);color:#fff;font-weight:900}.step h2{margin:2px 0 5px;font-size:23px;line-height:1.2;overflow-wrap:break-word}.step p{margin:5px 0;color:var(--muted)}.task{display:flex;gap:12px;align-items:flex-start;margin:15px 0;padding:14px;border-radius:14px;background:var(--soft)}.task input{flex:0 0 22px;width:22px;height:22px;margin-top:2px;accent-color:var(--orange)}.task label{cursor:pointer;overflow-wrap:break-word}.task strong{display:block;color:var(--charcoal)}.batch-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:15px 0}.batch{padding:14px;border:1px solid var(--line);border-radius:14px;background:#fff;overflow-wrap:break-word}.batch b{display:block;color:var(--orange-dark)}a,code{overflow-wrap:anywhere}code{padding:2px 6px;border-radius:6px;background:#f4efec;color:#51200e}.warning,.success{margin:15px 0;padding:14px 16px;border-left:5px solid var(--orange);border-radius:0 12px 12px 0;background:var(--soft);overflow-wrap:break-word}.success{border-color:var(--green);background:#effaf4}.settings{width:100%;border-collapse:collapse;margin-top:12px}.settings th,.settings td{padding:10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:break-word}.settings th{width:42%;color:var(--orange-dark)}details{margin:18px 0;border:1px solid var(--line);border-radius:18px;background:#fff;padding:17px 20px}summary{font-weight:900;cursor:pointer}.footer{text-align:center;color:var(--muted);padding-top:16px}.footer img{display:block;width:70px;margin:0 auto 8px}@media(max-width:640px){.page{width:calc(100% - 20px);margin-top:10px}.hero{padding:24px 20px;border-radius:19px}.hero p{font-size:15px}.actions .button{width:100%}.step{padding:20px 16px}.batch-grid{grid-template-columns:1fr}.progress-card{grid-template-columns:1fr;padding:16px}.reset{justify-self:start;min-height:44px}.settings{font-size:14px}.settings th,.settings td{display:block;width:100%;padding:8px}.settings th{padding-bottom:0;border-bottom:0}.logo{width:88px}}@media(max-width:380px){h1{font-size:30px}.hero{padding:22px 17px}.step{padding:18px 14px}.step-head{gap:10px}.number{flex-basis:34px;width:34px;height:34px}.step h2{font-size:21px}.task{padding:13px 11px;gap:10px}.task label,.step p,.batch,.warning,.success{font-size:15px}details{padding:15px}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <img class="logo" src="assets/apex-logo.png" alt="Apex Computers logo">
+      <h1>Easy GitHub & Vercel upload</h1>
+      <p>No Git, Node.js, VS Code or command line. Use your browser and tick each step as you finish it.</p>
+      <div class="actions">
+        <a class="button" href="index.html">Test the website</a>
+        <a class="button alt" href="products.html">Open the shop pages</a>
+        <a class="button alt" href="https://github.com/new" target="_blank" rel="noopener">Create GitHub repository</a>
+      </div>
+    </header>
+
+    <section class="progress-card" aria-label="Deployment progress">
+      <div><strong id="progress-label">0 of 10 tasks complete</strong><div>Checklist progress is saved on this device.</div></div>
+      <button class="reset" id="reset-checklist" type="button">Reset checklist</button>
+      <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+    </section>
+
+    <section class="step">
+      <div class="step-head"><span class="number">1</span><div><h2>Extract and test</h2><p>Start inside the downloaded deployment ZIP.</p></div></div>
+      <div class="task"><input id="task-1" data-deploy-task type="checkbox"><label for="task-1"><strong>Extract the ZIP</strong>Open the extracted <code>apex-computers</code> folder. Do not upload the ZIP file itself.</label></div>
+      <div class="task"><input id="task-2" data-deploy-task type="checkbox"><label for="task-2"><strong>Test locally</strong>Double-click <code>index.html</code>, then open <code>products.html</code>, <code>media.html</code>, <code>product.html?id=surface-laptop-4-i7</code> and <code>buying-guide.html</code>. Confirm products, English/Kiswahili and WhatsApp open correctly.</label></div>
+    </section>
+
+    <section class="step">
+      <div class="step-head"><span class="number">2</span><div><h2>Create an empty GitHub repository</h2><p>Use the GitHub website only.</p></div></div>
+      <div class="task"><input id="task-3" data-deploy-task type="checkbox"><label for="task-3"><strong>Create <code>apex-computers</code></strong>At <a href="https://github.com/new" target="_blank" rel="noopener">github.com/new</a>, enter the name and choose Public or Private.</label></div>
+      <div class="warning"><strong>Important:</strong> leave “Add a README”, “Add .gitignore” and “Choose a license” unchecked. The new repository must be empty.</div>
+    </section>
+
+    <section class="step">
+      <div class="step-head"><span class="number">3</span><div><h2>Upload in five small batches</h2><p>GitHub allows up to 100 files per browser upload. These folders are already divided safely.</p></div></div>
+      <div class="batch-grid">
+        <div class="batch"><b>Batch 1 · Website files</b>Upload all loose files plus <code>api</code>, <code>assets</code>, <code>data</code> and <code>lib</code>. Leave the four media folders for the next batches.</div>
+        <div class="batch"><b>Batch 2 · 89 files</b>Upload the whole <code>media-01</code> folder.</div>
+        <div class="batch"><b>Batch 3 · 99 files</b>Upload the whole <code>media-02</code> folder.</div>
+        <div class="batch"><b>Batch 4 · 89 files</b>Upload the whole <code>media-03</code> folder.</div>
+        <div class="batch"><b>Batch 5 · 18 files</b>Upload the whole <code>media-04</code> folder.</div>
+      </div>
+      <div class="task"><input id="task-4" data-deploy-task type="checkbox"><label for="task-4"><strong>Upload Batch 1</strong>Click <em>uploading an existing file</em>, drag the website files and small folders, then click <strong>Commit changes</strong>.</label></div>
+      <div class="task"><input id="task-5" data-deploy-task type="checkbox"><label for="task-5"><strong>Upload Batches 2–5</strong>Use <strong>Add file → Upload files</strong>. Upload and commit only one media folder at a time.</label></div>
+      <div class="task"><input id="task-6" data-deploy-task type="checkbox"><label for="task-6"><strong>Check the repository root</strong>You must see <code>index.html</code>, <code>products.html</code>, <code>product.html</code>, <code>media.html</code>, <code>buying-guide.html</code>, <code>package.json</code>, <code>vercel.json</code> and the four media folders on the repository’s first page.</label></div>
+      <div class="warning">If GitHub shows more than 100 files, you selected more than one media folder. Cancel that upload and select only one folder.</div>
+    </section>
+
+    <section class="step">
+      <div class="step-head"><span class="number">4</span><div><h2>Deploy from GitHub to Vercel</h2><p>There is no build command.</p></div></div>
+      <div class="task"><input id="task-7" data-deploy-task type="checkbox"><label for="task-7"><strong>Import the repository</strong>Open <a href="https://vercel.com/new" target="_blank" rel="noopener">vercel.com/new</a>, sign in with GitHub and click <strong>Import</strong> beside <code>apex-computers</code>.</label></div>
+      <table class="settings">
+        <tr><th>Framework Preset</th><td><strong>Other</strong></td></tr>
+        <tr><th>Root Directory</th><td>Leave default</td></tr>
+        <tr><th>Build Command</th><td>Leave empty</td></tr>
+        <tr><th>Output Directory</th><td>Leave empty/default</td></tr>
+        <tr><th>Install Command</th><td>Leave default</td></tr>
+      </table>
+      <div class="task"><input id="task-8" data-deploy-task type="checkbox"><label for="task-8"><strong>Click Deploy</strong>Wait for Vercel to show the successful deployment and website address.</label></div>
+      <div class="success">Future GitHub updates deploy automatically after you commit them.</div>
+    </section>
+
+    <section class="step">
+      <div class="step-head"><span class="number">5</span><div><h2>Final check and optional Gmail</h2><p>WhatsApp, calls and SMS already work without Gmail.</p></div></div>
+      <div class="task"><input id="task-9" data-deploy-task type="checkbox"><label for="task-9"><strong>Test the live address on your phone</strong>Open a product, change language, tap WhatsApp, SMS, Instagram and Call.</label></div>
+      <div class="task"><input id="task-10" data-deploy-task type="checkbox"><label for="task-10"><strong>Optional: enable Gmail enquiries</strong>Follow the Gmail Environment Variables section in <code>README.md</code>. Never put the Gmail App Password in GitHub.</label></div>
+    </section>
+
+    <details lang="sw">
+      <summary>Maelekezo mafupi kwa Kiswahili</summary>
+      <ol>
+        <li>Fungua ZIP, kisha jaribu tovuti kwa kubofya <code>index.html</code>.</li>
+        <li>Tengeneza repository tupu GitHub iitwayo <code>apex-computers</code>.</li>
+        <li>Pakia mafaili ya tovuti kwanza, kisha <code>media-01</code> hadi <code>media-04</code> moja baada ya nyingine.</li>
+        <li>Vercel: chagua <strong>Other</strong>; acha Build Command na Output Directory wazi.</li>
+        <li>Bonyeza Deploy, kisha jaribu WhatsApp, SMS, simu, Instagram na lugha kwenye simu.</li>
+      </ol>
+    </details>
+
+    <footer class="footer"><img src="assets/apex-icon.png" alt=""><strong>Apex Computers Tanzania</strong><br>Simple browser-only deployment guide</footer>
+  </main>
+  <script src="deploy-guide.js"></script>
+</body>
+</html>

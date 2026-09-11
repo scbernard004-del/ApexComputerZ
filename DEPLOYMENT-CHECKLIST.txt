@@ -1,0 +1,39 @@
+APEX COMPUTERS — EASY GITHUB + VERCEL CHECKLIST
+
+No Git, Node.js, npm, VS Code or command line is needed.
+
+1. EXTRACT AND TEST
+[ ] Extract the ZIP and open the apex-computers folder.
+[ ] Double-click index.html and test the website.
+
+2. CREATE GITHUB REPOSITORY
+[ ] Open https://github.com/new
+[ ] Repository name: apex-computers
+[ ] Keep Add README, .gitignore and License unchecked.
+[ ] Create the empty repository.
+
+3. UPLOAD FIVE BATCHES
+[ ] Batch 1: loose website files plus api, assets, data and lib.
+[ ] Batch 2: media-01 only — 89 files.
+[ ] Batch 3: media-02 only — 99 files.
+[ ] Batch 4: media-03 only — 89 files.
+[ ] Batch 5: media-04 only — 18 files.
+
+Commit every batch. Do not upload the ZIP itself. At the end, index.html,
+package.json and vercel.json must be visible on the repository's first page.
+
+4. DEPLOY TO VERCEL
+[ ] Open https://vercel.com/new and sign in with GitHub.
+[ ] Import apex-computers.
+[ ] Framework Preset: Other
+[ ] Root Directory: default
+[ ] Build Command: empty
+[ ] Output Directory: empty/default
+[ ] Click Deploy.
+
+5. FINAL CHECK
+[ ] Open the Vercel address on a phone.
+[ ] Test English/Kiswahili, products, WhatsApp, SMS, Call and Instagram.
+[ ] Optional: add Gmail settings using the instructions in README.md.
+
+MUHIMU: Usiweke Gmail App Password kwenye GitHub.
